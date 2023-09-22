@@ -87,11 +87,45 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    transition: 5s;
+  
 }
+.ex-6-img:hover{
+    filter: grayscale();
+}
+.ex-7-img:hover{
+    opacity: 0.2;
+}
+.ex-8-img:hover{
+    filter: sepia();
+    border-radius: 50%;
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 5s;
+}
+.ex-9-img:hover {
+    filter:grayscale(1);
+    border-radius: 25px;
+    animation-name: move;
+    animation-duration: 5s;
+}
+@keyframes move{
+    0%{
+        width: 400px;
+    }
+    25%{
+        width: 300px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
 }
 .ex-10-icon {
     font-size: 60px;
