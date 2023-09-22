@@ -144,11 +144,14 @@
 }
 .ex-11-icon {
     font-size: 60px;
-    
-}
+    transition: 1s ease-in-out;
+       
+    }
 .ex-11-icon:hover{
-    rotate: 270deg;
+   rotate: 270deg;
 }
+
+
 
 
 .ex-12-button, .ex-13-button {
